@@ -23,7 +23,7 @@ TDD on problems using ava
 
 
 **Link(s) to work**
-1. [Queue with LinkedLists](https://github.com/Jshen18/100-days-of-code/data-structures/queue.test.js)
-2. [Queue with two stacks](https://github.com/Jshen18/100-days-of-code/interview-cake/queue-with-stacks.test.js)
-2. [Get max value in stack](https://github.com/Jshen18/100-days-of-code/interview-cake/largest-stack.test.js)
+1. [Queue with LinkedLists](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/queue.test.js)
+2. [Queue with two stacks](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/queue-with-stacks.test.js)
+2. [Get max value in stack](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/largest-stack.test.js)
 
