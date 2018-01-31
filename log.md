@@ -1,30 +1,29 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: January 30, Tuesday
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: 
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Interview Cake Problems with queue and stacks
+- Written in pseudoclassical instantiation
+  - #19
+    - using 'this.length && this.length--;'
+    - pushing and popping between two stacks
+    - traversing through queue with node implementation using next pointers
+  - #20
+    - max stack was a composition problem i.e. max stack 'has' a stack, but does not 'inherit' from it
 
-**Link to work:** [Calculator App](http://www.example.com)
+TDD on problems using ava
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+**Thoughts** 
+- Implementation in queues using array, object, or nodes/linked lists
+- Using data structures within data structures (used in get max value in stack)
+- Stacks = LIFO
+- Queues = FIFO
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+1. [Queue with LinkedLists](https://github.com/Jshen18/100-days-of-code/data-structures/queue.test.js)
+2. [Queue with two stacks](https://github.com/Jshen18/100-days-of-code/interview-cake/queue-with-stacks.test.js)
+2. [Get max value in stack](https://github.com/Jshen18/100-days-of-code/interview-cake/largest-stack.test.js)
+

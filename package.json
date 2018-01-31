@@ -1,0 +1,22 @@
+{
+  "name": "100-days-of-code",
+  "version": "1.0.0",
+  "description": "## Contents * [Rules](rules.md) * [Log - click here to see my progress](log.md) * [FAQ](FAQ.md) * [Resources](resources.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jshen18/100-days-of-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jshen18/100-days-of-code/issues"
+  },
+  "homepage": "https://github.com/Jshen18/100-days-of-code#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
