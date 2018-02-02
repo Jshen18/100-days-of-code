@@ -4,7 +4,7 @@
 
 **Today's Progress**: 
 
-Interview Cake Problems with queue and stacks
+Interview Cake Problems 
 - Written in pseudoclassical instantiation
   - Implement the Queue data structure with linked lists
     - methods include enqueue, dequeue, peek, isEmpty
@@ -36,7 +36,7 @@ TDD on problems using ava
 
 **Today's Progress**: 
 
-Interview Cake Problems with queue and stacks
+Interview Cake Problems 
 - Written in pseudoclassical instantiation
   - Implement Hash Table
     - Using an array to implement hash table, buckets, tuples
@@ -68,7 +68,7 @@ Interview Cake Problems with queue and stacks
 
 **Today's Progress**: 
 
-Interview Cake Problems with queue and stacks
+Interview Cake Problems 
 - Written in pseudoclassical instantiation
   - # 14 Inflight Entertainment
     - Naive solution: two for loops, with the exception of waching the same movie twice, so negating intersection of loops O(n^2)
@@ -86,3 +86,21 @@ Interview Cake Problems with queue and stacks
 
 **Link(s) to work**
 1. [Inflight Entertainment](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/inflight-entertainment.test.js)
+
+### Day 1: January 31, Wednesday
+
+**Today's Progress**: 
+
+Interview Cake Problems
+- #30 Permutation Palindrome
+    - Use a set to keep a flag of whether or not the frequency of character appears an odd or even number of times
+    - If the set has a size of 1 or zero, that means it has either all pairs or just one unique letter (the rest pairs)
+    - A palindrome only needs to have letters that are pairs or with one letter without a pair
+
+**Thoughts** 
+- Usually getting a better time complexity from a naive solution includes using an object
+
+
+**Link(s) to work**
+1. [Hashtable](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/hash-table.test.js)
+2. [Trie of URLs](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/compress-url-list.test.js)
