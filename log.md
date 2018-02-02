@@ -6,12 +6,17 @@
 
 Interview Cake Problems with queue and stacks
 - Written in pseudoclassical instantiation
-  - #19
+  - Implement the Queue data structure with linked lists
+    - methods include enqueue, dequeue, peek, isEmpty
+  - #19 Implement a Queue with Two Stacks
     - using 'this.length && this.length--;'
     - pushing and popping between two stacks
     - traversing through queue with node implementation using next pointers
-  - #20
+    - o(m) where m is number of calls
+  - #20 Max Stack
     - max stack was a composition problem i.e. max stack 'has' a stack, but does not 'inherit' from it
+    - includes two new Stacks, to hold original stack and stack with max values
+    - check max from the end of max stack
 
 TDD on problems using ava
 
@@ -47,8 +52,6 @@ Interview Cake Problems with queue and stacks
     - Can be created via nodes and pointers, or nested objects
     - 
 
-TDD on problems using ava
-
 **Thoughts** 
 - Hash table methods include, insertion, retrieval, removal and should handle replacement, collisions, empty bucket
 - A hash table cannot have tuples with the same key
@@ -61,3 +64,25 @@ TDD on problems using ava
 1. [Hashtable](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/hash-table.test.js)
 2. [Trie of URLs](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/compress-url-list.test.js)
 
+### Day 2: February 1, Thursday
+
+**Today's Progress**: 
+
+Interview Cake Problems with queue and stacks
+- Written in pseudoclassical instantiation
+  - # 14 Inflight Entertainment
+    - Naive solution: two for loops, with the exception of waching the same movie twice, so negating intersection of loops O(n^2)
+    - Using sets/object, we can have constant time lookup O(1)
+    - key in object will be the difference between flight duration and movie length
+      - if the difference exists in the object, while iterating through the movie length, then we return true,
+        else false
+    - Using an object means the value was set to 'true', but if using a Set then that would not be necessary
+
+**Thoughts** 
+- Tradeoff between time complexity and space i.e. decreasing time complexity means increased space needed
+- Hash-based data structures are very common, try thinking about how this could be useful to your challenge first
+- Data-structure brainstorming! When given a problem imagine how you would be able to solve it using various data    structures and find which would be most efficient
+
+
+**Link(s) to work**
+1. [Inflight Entertainment](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/inflight-entertainment.test.js)
