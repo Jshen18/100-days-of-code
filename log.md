@@ -87,7 +87,7 @@ Interview Cake Problems
 **Link(s) to work**
 1. [Inflight Entertainment](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/inflight-entertainment.test.js)
 
-### Day 1: January 31, Wednesday
+### Day 3: February 2, Friday
 
 **Today's Progress**: 
 
