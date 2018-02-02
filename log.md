@@ -102,5 +102,4 @@ Interview Cake Problems
 
 
 **Link(s) to work**
-1. [Hashtable](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/hash-table.test.js)
-2. [Trie of URLs](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/compress-url-list.test.js)
+1. [Permutation Palindrome](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/permutation-palindrome.test.js)
