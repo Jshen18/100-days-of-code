@@ -93,13 +93,21 @@ Interview Cake Problems
 
 Interview Cake Problems
 - #30 Permutation Palindrome
-    - Use a set to keep a flag of whether or not the frequency of character appears an odd or even number of times
-    - If the set has a size of 1 or zero, that means it has either all pairs or just one unique letter (the rest pairs)
-    - A palindrome only needs to have letters that are pairs or with one letter without a pair
+  - Use a set to keep a flag of whether or not the frequency of character appears an odd or even number of times
+  - If the set has a size of 1 or zero, that means it has either all pairs or just one unique letter (the rest pairs)
+  - A palindrome only needs to have letters that are pairs or with one letter without a pair
+- Graph Implementation - Undirected
+  - Node label was the same as node 'data'
+  - Object containing nodes with 'edges' properties to show relationship between nodes
+  - When deleting node, make sure to look up edges that node was connected to, and lookup those edges to delete original node edge
+
 
 **Thoughts** 
 - Usually getting a better time complexity from a naive solution includes using an object
+- Graphs can be used for social networks
+- Graphs can be implemented via array also
 
 
 **Link(s) to work**
 1. [Permutation Palindrome](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/permutation-palindrome.test.js)
+2. [Graph Implementation](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/graph.test.js)
