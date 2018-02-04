@@ -111,3 +111,19 @@ Interview Cake Problems
 **Link(s) to work**
 1. [Permutation Palindrome](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/permutation-palindrome.test.js)
 2. [Graph Implementation](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/graph.test.js)
+
+### Day 4: February 3, Saturday
+
+**Today's Progress**: 
+
+Interview Cake Problems
+- #2 Product of All Other Numbers
+  - 
+
+**Thoughts** 
+- Using greedy approach to #2
+- Walk through the problem slowly, if you see that there is a pattern of doing the same work, that's a red flag that it can be simplified
+
+
+**Link(s) to work**
+1. [Product of All Other Numbers](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/product-of-all-other-numbers.test.js)
