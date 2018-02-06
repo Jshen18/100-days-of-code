@@ -127,3 +127,26 @@ Interview Cake Problems
 
 **Link(s) to work**
 1. [Product of All Other Numbers](https://github.com/Jshen18/100-days-of-code/blob/master/data-structures/product-of-all-other-numbers.test.js)
+
+### Day 5: February 5, Monday
+
+**Today's Progress**: 
+
+Interview Cake Problems
+- #10 2nd Largest Item in BST
+  - First think about how to find the largest item in a BST i.e. the most right item in a BST must be the largest 
+
+
+Algorithms
+- 2nd Largest Item in BST
+  - One walk down BST means O(h) time, where h is height of tree (still O(logn) if tree is balanced, otherwise O(n). O(1) space)
+  - try simplifying the problem to find the first largest item. 
+- Depth First Search
+
+
+**Thoughts** 
+- Pre-order, in-order, post-order when traversing a tree determines order of traversal
+
+**Link(s) to work**
+1. [Depth First Search](https://github.com/Jshen18/100-days-of-code/blob/master/algorithms/depth-first-search.test.js)
+1. [Second Largest in BST](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/second-largest-in-bst.test.js)
