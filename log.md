@@ -149,4 +149,44 @@ Algorithms
 
 **Link(s) to work**
 1. [Depth First Search](https://github.com/Jshen18/100-days-of-code/blob/master/algorithms/depth-first-search.test.js)
-1. [Second Largest in BST](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/second-largest-in-bst.test.js)
+2. [Second Largest in BST](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/second-largest-in-bst.test.js)
+
+### Day 6: February 6, Tuesday
+
+**Today's Progress**: 
+
+Trello Clone
+
+
+**Thoughts** 
+- Synthetic Events
+- Controlled Components
+- ES6
+- Local storage, session storage
+- pseudoclasses, hooks to browser to know when to activate CS elements
+
+### Day 7: February 7, Wednesday
+
+**Today's Progress**: 
+
+Interview Cake Problems
+- #8 Superbalanced Binary Search Trees
+  - Set min to a very high number, max to a very low number
+  - Find whether or not the min and max have a difference of 1 to see if it's balanced
+Leetcode
+- Bottom Left Tree Value
+  - Iterate through tree to find leaf node
+- Largest Value in Tree Row
+  - Initialize array to hold values, where index of array will be depth of row
+  - Compare values to find max of each row
+
+
+**Thoughts** 
+- min = Math.max(min, depth)
+- max = Math.max(min, depth)
+
+
+**Link(s) to work**
+1. [Superbalanced BST](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/balanced-binary-tree.test.js)
+2. [Bottom Left Tree Value](https://github.com/Jshen18/100-days-of-code/blob/master/leetcode/bottom-left-tree-value.test.js)
+3. [Largest Value In Tree](https://github.com/Jshen18/100-days-of-code/blob/master/interview-cake/largest-value-in-tree.test.js)
